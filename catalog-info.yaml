@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: webinar
+  description: Stack for webinar
+  annotations:
+    pulumi.com/project-slug: ediri/webinar/dev
+spec:
+  owner: group:default/me
+  type: service
+  lifecycle: experimental
